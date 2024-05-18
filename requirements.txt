@@ -1,0 +1,12 @@
+pytest-runner
+opencv-python==4.6.0.66
+mmrotate==0.3.4 
+mmdet==2.28.0
+xonsh
+tqdm
+albumentations
+pympler
+timm
+dataclasses
+seaborn
+imgaug

@@ -67,7 +67,7 @@ Note: If you want to retrain the Oriented-RCNN baseline model, please refer to [
 ### 5. Testing
 Take DIOR-Cloudy dataset as examples:
 ```bash
-python test.py configs/unbiased_teacher/sfod/unbiased_teacher_oriented_rcnn_selftraining_cga.py --eval mAP --show-dir --cfg-options corrupt="cloudy"
+python test.py configs/unbiased_teacher/sfod/unbiased_teacher_oriented_rcnn_selftraining_cga.py work_dirs/unbiased_teacher_oriented_rcnn_selftraining_cga/latest.pth --eval mAP --cfg-options corrupt="cloudy"
 ```
 
 ## 💡 Acknowledgement

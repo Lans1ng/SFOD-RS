@@ -31,9 +31,10 @@ class SemiTwoStageDetector(SemiBaseDetector, RotatedTwoStageDetector):
     @torch.no_grad()
     def inference_unlabeled(self, img, img_metas, rescale=True, return_feat=False):
         ema_model = self.ema_model.module
-        bbox_results = ema_model.simple_test(img, img_metas, with_cga = True, rescale = rescale)
-        # except:
-        #     bbox_results = ema_model.simple_test(img, img_metas, rescale = rescale)
+        try:
+            bbox_results = ema_model.simple_test(img, img_metas, with_cga = True, rescale = rescale)
+        except:
+            bbox_results = ema_model.simple_test(img, img_metas, rescale = rescale)
         return bbox_results
             
     def simple_test(self, img, img_metas, proposals=None, rescale=False):

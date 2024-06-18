@@ -42,7 +42,7 @@ Note : For more detail about other corruptions and original cloudy image, please
   │   ├── Annotations 
   │   ├── JPEGImages
   │   ├── ImageSets
-  │   ├── Corruption
+  │   ├── Corruption/
   │   │   ├── JPEGImages-brigtness
   │   │   ├── JPEGImages-cloudy
   │   │   ├── JPEGImages-contrast

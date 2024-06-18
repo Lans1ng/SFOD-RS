@@ -179,7 +179,6 @@ model = dict(
         weight_l = 0, #weight of supervised loss, set 0 for SFOD.
         weight_u = 1, #weight of unsupervised loss
         debug=False,
-        vis_dir=vis_dir,
         score_thr=score,
         use_bbox_reg=False,
     ),

@@ -10,12 +10,13 @@ save_interval = 1
 
 classes = ('airplane', 'airport', 'baseballfield','basketballcourt', 'bridge', 'chimney', 'dam', 'Expressway-Service-area','Expressway-toll-station', 'golffield', 'groundtrackfield', 'harbor', 'overpass', 'ship','stadium', 'storagetank', 'tenniscourt', 'trainstation', 'vehicle', 'windmill')
 
-data_root_l = 'dataset/DIOR/JPEGImages'
-data_root_u = 'dataset/DIOR/Corruption/JPEGImages-${corrupt}'
-ann_file_l = 'dataset/DIOR/ImageSets/Main/train.txt'
-ann_file_u = 'dataset/DIOR/ImageSets/Main/val.txt'
-ann_file_test = 'dataset/DIOR/ImageSets/Main/test.txt'
-ann_subdir = 'dataset/DIOR/Annotations'
+data_root = 'dataset/DIOR/'
+data_root_l = data_root+'JPEGImages'
+data_root_u = data_root+'Corruption/JPEGImages-${corrupt}'
+ann_file_l = data_root+'ImageSets/Main/train.txt'
+ann_file_u = data_root+'ImageSets/Main/val.txt'
+ann_file_test = data_root+'ImageSets/Main/test.txt'
+ann_subdir = data_root+'Annotations/Oriented Bounding Boxes'
 
 angle_version = 'le90'
 # # -------------------------dataset------------------------------

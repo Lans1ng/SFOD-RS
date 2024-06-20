@@ -16,7 +16,7 @@ data_root_u = data_root+'Corruption/JPEGImages-${corrupt}'
 ann_file_l = data_root+'ImageSets/Main/train.txt'
 ann_file_u = data_root+'ImageSets/Main/val.txt'
 ann_file_test = data_root+'ImageSets/Main/test.txt'
-ann_subdir = data_root+'Annotations'
+ann_subdir = data_root+'Annotations/Oriented Bounding Boxes'
 
 angle_version = 'le90'
 # # -------------------------dataset------------------------------

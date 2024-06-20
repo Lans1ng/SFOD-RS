@@ -25,12 +25,12 @@ from mmcv.runner import get_dist_info, init_dist
 from mmcv.utils import get_git_hash
 from mmdet import __version__
 from mmdet.apis import init_random_seed, set_random_seed
-
+from mmdet.utils import get_device
 # from mmrotate.apis import train_detector
 from mmdet_extension.apis import train_detector
 from mmrotate.datasets import build_dataset
 from mmrotate.models import build_detector
-from mmrotate.utils import (collect_env, get_device, get_root_logger,
+from mmrotate.utils import (collect_env, get_root_logger,
                             setup_multi_processes)
 from sfod.utils import patch_config
 

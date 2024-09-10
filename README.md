@@ -84,10 +84,14 @@ python test.py configs/unbiased_teacher/sfod/unbiased_teacher_oriented_rcnn_self
 If you find this project useful in your research, please consider cite:
 
 ```BibTeX
-@article{liu2024clip,
-  title={CLIP-guided Source-free Object Detection in Aerial Images},
+@INPROCEEDINGS{10642376,
   author={Liu, Nanqing and Xu, Xun and Su, Yongyi and Liu, Chengxin and Gong, Peiliang and Li, Heng-Chao},
-  journal={arXiv preprint arXiv:2401.05168},
-  year={2024}
-}
+  booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Clip-Guided Source-Free Object Detection in Aerial Images}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={7964-7967},
+  doi={10.1109/IGARSS53475.2024.10642376}}
+
 ```
